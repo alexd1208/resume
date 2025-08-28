@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Подключаем иконки -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Навигационное меню -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Моё резюме</div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">Обо мне</a></li>
+                <li><a href="#experience" class="nav-link">Опыт</a></li>
+                <li><a href="#skills" class="nav-link">Навыки</a></li>
+                <li><a href="#portfolio" class="nav-link">Портфолио</a></li>
+                <li><a href="#contact" class="nav-link">Контакты</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Герой секция -->
+    <section id="hero">
+        <div class="hero-container">
+            <h1 class="hero-title">Дуля Александр</h1>
+            <p class="hero-subtitle">IT-инженер технической поддержки </p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Связаться со мной</a>
+                <a href="#" class="btn btn-secondary" id="download-cv">Скачать резюме</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Обо мне" -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">Обо мне</h2>
+            <div class="about-content">
+                <div class="about-img">
+                    <img src="photo_2025-07-18_00-17-01.jpg" alt="Моё фото" id="profile-img">
+                </div>
+                <div class="about-text">
+                    <p>Привет! Я IT-инженер технической поддержки. Специализируюсь на оперативном решении инцидентов, удаленном администрировании и настройке пользовательского оборудования и ПО. Также имею опыт работы в ОКК.</p>
+                    <p>Участвовал в проектах по разработке сайтов для физ. и юр. лиц с использованием HTML, CSS, JavaScript. Базовые знания работы с терминалом Linux. Имею обширный опыт работы с ИИ инструментами.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span class="info-label">Имя:</span>
+                            <span class="info-value">Александр</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Email:</span>
+                            <span class="info-value">alexhh1208@mail.ru</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Возраст:</span>
+                            <span class="info-value">24 года</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Местоположение:</span>
+                            <span class="info-value">Саратов, Россия</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Опыт работы" -->
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Опыт работы</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Специалист технической поддержки</h3>
+                        <h4>ТФН-Нижний Новгород</h4>
+                        <p>Поддержка пользователей автомобильной охранной системы Scher-Khan. Диагностика и устранение ошибок.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - 2025</div>
+                    <div class="timeline-content">
+                        <h3>Специалист отдела контроля качества</h3>
+                        <h4>Яндекс Команда для бизнеса</h4>
+                        <p>Проверка соблюдения стандартов предоставления услуг сотрудников компании.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2025 - по настоящее время</div>
+                    <div class="timeline-content">
+                        <h3>IT-Инженер технической поддержки</h3>
+                        <h4>Zerobit</h4>
+                        <p>Решение инцидентов посредством удалённого администрирования, установка и настройка программного обеспечения, диагностика ПК, настройка сетевых подключений, настройка оборудования (МФУ, телефон, кассовое оборудование), работа в терминале, технические консультации.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Навыки" -->
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Навыки</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Технические навыки</h3>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>HTML/CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>JavaScript</span>
+                            <span>20%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="20%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Linux</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="30%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Настройка оборудования</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Профессиональные навыки</h3>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Самообучение и адаптивность</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Инструменты ИИ</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Работа с инцидентами</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span>Мультизадачность</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Портфолио" -->
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="section-title">Портфолио</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Все</button>
+                <button class="filter-btn" data-filter="web">Веб-сайты</button>
+                <button class="filter-btn" data-filter="app">Приложения</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://giga.chat/gigachat/files/public/generated/278b4643-5c1a-45e0-89b2-3542030a67aa" alt="Проект 1">
+                    <div class="portfolio-overlay">
+                        <h3>Корпоративный сайт</h3>
+                        <p>Веб-разработка</p>
+                        <a href="https://alexd1208.github.io/urcon/" class="portfolio-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="app">
+                    <img src="https://giga.chat/gigachat/files/public/generated/b4a0b658-d74d-43ff-96bc-9ba056ac1fbf" alt="Проект 2">
+                    <div class="portfolio-overlay">
+                        <h3>Веб-приложение</h3>
+                        <p>JS</p>
+                        <a href="https://alexd1208.github.io/prognoz/" class="portfolio-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="web">
+                    <img src="https://giga.chat/gigachat/files/public/generated/a9bbbdf0-592f-42a7-a7f8-9f24276bb3f1" alt="Проект 4">
+                    <div class="portfolio-overlay">
+                        <h3>Справочник</h3>
+                        <p>HTML, CSS, JS</p>
+                        <a href="https://alexd1208.github.io/-/ " class="portfolio-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Секция "Контакты" -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title">Контакты</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Адрес</h3>
+                            <p>Саратов, Россия</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>alexhh1208@mail.ru</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Телефон</h3>
+                            <p>+7 (906) 155-78-38</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+    <form action="https://formspree.io/f/xkgzdzrz" method="POST" id="contactForm">
+        <div class="form-group">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+        </div>
+        <div class="form-group">
+            <input type="email" name="email" placeholder="Ваш Email" required>
+        </div>
+        <div class="form-group">
+            <textarea name="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Отправить сообщение</button>
+    </form>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://vk.com/alex1208_du" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://t.me/Alex64_O" target="_blank"><i class="fab fa-telegram"></i></a>
+                <a href="https://github.com/alexd1208" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+            <p>&copy; 2️⃣0️⃣2️⃣5️⃣</p>
+        </div>
+    </div>
+</footer>
+
+    <!-- Кнопка "Наверх" -->
+    <button id="backToTop" title="Наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+    <script src="resume-docx.js"></script>
+</body>
+</html>
